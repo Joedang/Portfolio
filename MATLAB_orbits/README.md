@@ -16,13 +16,19 @@ I mostly got to practice passing flags to functions and subroutines, so I could 
 Retrospectively, I think the biggest thing I learned was how difficult things are when you don't know the right concept to use. (In this case, functions as objects.) I got a lot of practice using plots to diagnose bugs, rather than print statements. That ended up being useful when I wrote my [restricted 3-body simulation in R](github.com/Joedang/restricted_three_body_problem). 
 
 ## Images
+Most of these use different visualization schemes. Generally, the red circles are the ideal circular orbits and anything else is the real trajectory of the particle.
 
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+A moon orbiting a planet orbiting a star. (The star is out of the frame.)
+![](gif/moon_helix.gif)  
+![](gif/broken_moons-275.png)  
+
+A system of planets orbiting a star. They are initialized with random masses and circular orbits. You can see a collision in the upper right.
+![](gif/thrown_into_the_sun.gif)  
+![](gif/broken_suns-320.png)  
+
+Demontrations of the inaccuracy of Euler's method. The planets gain energy as they overshoot their theoretical trajectories. 
+![](gif/double orbit - trace - o - Euler.gif)  
+![](gif/planet - trace - o - Euler.gif)  
+
+3D motion of randomized particles.
+![](gif/random10.gif)  

@@ -14,6 +14,8 @@ You can select different projectiles and planets by changing the value of `projN
 If everything is working, you should get an OpenGL window showing the trajectory.
 The blue trajectory shows the idealized parabolic path (no air, inertial reference frame), while the red trajectory shows the 'true' path (drag, buoyancy, centrifugal, and Corriolis effects included).
 
+![](ballistic_cropped.png)
+
 ## Problems
 The default data type for floats in R isn't able to handle the very large values of some variables like `K1X`. I tried bringing in a library that does arbitrary precision, but had problems with getting R to default to the new types introduced by that library.
 If, for example, you try to set up a scenario on Earth where Corriolis effects are noticeable, something will almost certainly overflow and become `Inf`.
