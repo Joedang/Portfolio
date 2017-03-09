@@ -1,0 +1,3 @@
+"PPBall",	"BaseBall",	"BasketBall",	"BowlingBall",	"BeachBall",	"CannonBall",	"SteelBearing",	"NeutroniumBB", "d20"		#object name
+0.0027,		0.145,		0.624,		7,		1.61,		7.25e-2,	8.93e-4,	4.52e10,	0.006		#mass in kg
+0.040,		0.075,		0.24,		0.068,		0.61,		0.013,		0.003,		0.003,		0.022		#diameter in m
