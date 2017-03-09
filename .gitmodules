@@ -1,0 +1,3 @@
+[submodule "3-body"]
+	path = 3-body
+	url = git@github.com:Joedang/restricted_three_body_problem.git
