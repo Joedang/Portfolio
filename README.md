@@ -1,5 +1,6 @@
 # Portfolio
-This is a collection of work I've done that I think is worth seeing.
+My most interesting work can be found by [looking at the repositories I contribute to most](https://github.com/Joedang).
+This is a collection of work I've done that I think is worth seeing, but isn't associated with any repository.
 Feel free to check out the READMEs in the various directories for a more mid-length explanation of everything.
 
 ## Programming
